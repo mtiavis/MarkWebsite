@@ -1,0 +1,107 @@
+body {
+  background-color: #2c3037;
+  font-family: Georgia;
+  margin: 0px;
+  overflow-x: hidden;
+  max-width: 100%;
+  position: relative;
+}
+
+ul.menu {
+  position: relative;
+  bottom: ;
+  width: 100%;
+  border-color: black;
+  border-width: 2px;
+  border-style: solid;
+  background-image: linear-gradient(#000000,#7f8c8d);
+}
+
+ul.menu li {
+  list-style: none;
+  display: inline-block;
+  line-height: 600%;
+  width: 20%;
+  padding-right: 0%;
+  padding-left: 4.5%;
+}
+
+ul.menu li a {
+  font-family: Georgia;
+  color: #001f3f;
+  margin: 0px;
+  text-decoration: none;
+  font-size: 30px;
+}
+
+ul.menu li a:hover {
+  color: red;
+}
+
+
+h1 a {
+  position: relative;
+  left: 25%;
+  top: 5px;
+  color: #01021e;
+  text-decoration: underline overline;
+  font-size: 3vw;
+  width: 100%;
+}
+
+h1 a:hover {
+  color: red;
+}
+
+
+#input {
+  position: relative;
+  right: 15%;
+}
+
+
+#weakness, #weakness2 {
+  color: red;
+  font-size: 50px;
+  position: relative;
+  left: 500px;
+}
+
+table {
+  position: absolute;
+  left: 10%;
+  top: 1%;
+  border-collapse: collapse;
+  width: 10%;
+  visibility: hidden;
+}
+
+tr, td {
+  color: white;
+  border-style: solid;
+  font-size: 40px;
+  padding: 10px;
+}
+
+p {
+  color: yellow;
+}
+
+#pokeType {
+  color: white;
+}
+#directions {
+  width: 20%;
+  margin-left: 20px;
+  font-size: 30px;
+  border-style: solid;
+  padding: 20px;
+  position: relative;
+  right: 20%;
+}
+
+#wrapper {
+  position: relative;
+  left: 20%;
+  top: 10%;
+}

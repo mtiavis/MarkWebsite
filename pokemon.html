@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html> <!-- start tag -->
+
+  <head>
+  	<meta charset = "UTF-8">
+  	<meta name = "description" content = "This is my website">
+  	<title>Pokemon Search</title>
+    <link rel="stylesheet" type="text/css" href="pokemon.css">
+  </head>
+
+  <body>
+
+    <h1><a href="index.html">Mark's Website using HTML and CSS</a></h1>
+    <div id="menu1">
+      <ul class = "menu">
+        <li><a href="pokemon.html">Pokemon</a></li>
+        <li><a href = "animeList.html">Anime List</a></li>
+        <li><a href = "calculator.html">Calculator</a></li>
+        <li><a href = "joke.html" target="_blank">Joke</a></li>
+      </ul>
+    </div>
+
+<div id = wrapper>
+    <p id = "directions"> Directions: Type a pokemon's name input the text box on the bottom and
+      then press the "submit" button or you can just press "enter" on your
+      keyboard. The name must be spelled correctly, but it's not case-sensitive.
+      This will return a chart with all pokemon's weaknesses and resistances.
+    </p>
+
+    <div id="input">
+      <input type = "text" id = "pokemonOne">
+      <!-- <input type = "text" id = "pokemonTwo"> -->
+      <button>Submit</button>
+    </div>
+
+    <table>
+      <tr>
+        <td rowspan = "6"><img src = "#" id = "pokeImage"></td>
+        <td><p id="pokeType"></p></td>
+      </tr>
+      <tr>
+        <td>Quadruple Weakness: <p id = "quadW"></p></td>
+      </tr>
+      <tr>
+        <td>Double Weakness: <p id = "doubleW"></p></td>
+      </tr>
+      <tr>
+        <td>Quadruple Resistance: <p id = "quadR"></p></td>
+      </tr>
+      <tr>
+        <td>Double Resistance: <p id = "doubleR"></p></td>
+      </tr>
+      <tr>
+        <td>No Damage from: <p id = "noDam"></p></td>
+      <tr>
+    </table>
+</div>
+  <script src = "pokemon.js"></script>
+
+  </body>
+</html>

@@ -1,0 +1,94 @@
+body {
+  background-color: #001f3f;
+  color: #e6e6fa;
+  font-family: Georgia;
+  overflow-x: hidden;
+  margin: 0px;
+}
+
+/* the blue box in the menu*/
+ul.menu {
+  position: relative;
+  width: 100%;
+  border-color: black;
+  border-style: solid;
+  background-image: linear-gradient(#009ffd, #2a2a72);
+}
+
+/* the separable items on the list in the menu*/
+ul.menu li {
+  list-style: none;
+  display: inline-block;
+  vertical-align: middle;
+  line-height: 600%;
+  width: 20%;
+  padding-right: 0%;
+  padding-left: 4.5%;
+}
+/*links with text*/
+ul.menu li a {
+  text-decoration: none;
+  font-size: 30px;
+  padding-top: 0%;
+  font-family: Georgia;
+  color: #001f3f;
+  margin: 0px;
+}
+/* Hovering over different tabs */
+ul.menu li a:hover {
+  color: red;
+}
+
+/* Home Page link  */
+h1 a {
+  display: inline;
+  position: relative;
+  left: 25%;
+  color: #ffd743;
+  text-decoration: underline overline;
+  font-size: 3vw;
+  width: 100%;
+}
+/*Hovering over home page link*/
+h1 a:hover {
+  color: red;
+}
+/*Title About box*/
+h2 {
+  position: relative;
+  left: 30%;
+
+  color: #dcae96;
+  font-style: italic;
+  font-size: 40px;
+  margin-bottom: 1px;
+  margin-top: 50px;
+  width: 40%;
+}
+/*Title Description box*/
+h3 {
+  position: relative;
+  left: 30%;
+
+  color: #ffe5b4;
+  font-style: italic;
+  font-size: 30px;
+  margin-bottom: 1px;
+  margin-top: 50px;
+  width: 100%;
+
+}
+/*descriptioni boxes*/
+p.description {
+  position: relative;
+  left: 30%;
+
+  background-color: #0b64b3;
+  border-color: black;
+  border-width: 2px;
+  border-style: solid;
+  padding: 20px;
+  line-height: 1.5em;
+  margin-top: 1px;
+  width: 40%;
+}

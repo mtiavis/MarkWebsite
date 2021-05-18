@@ -1,0 +1,151 @@
+body {
+  background-color: #de6312;
+  font-family: Georgia;
+  margin: 0px;
+  overflow-x: hidden;
+  position: relative;
+}
+
+h1 a{
+  line-height: 200%;
+  position: relative;
+  left: 25%;
+  color: #A40606;
+  text-decoration: underline overline;
+  font-size: 3vw;
+  width: 100%;
+}
+
+h1 a:hover {
+  color: red;
+}
+#wrapperMenu {
+  position: relative;
+  top: 1%;
+}
+ul.menu {
+  position: absolute;
+  top: 80%;
+  width: 100%;
+  border-color: black;
+  border-width: 2px;
+  border-style: solid;
+  background-image: linear-gradient(#ec9f05, #ff4e00);
+}
+
+ul.menu li {
+  list-style: none;
+  display: inline-block;
+  line-height: 600%;
+  width: 20%;
+  padding-right: 0%;
+  padding-left: 4.5%;
+}
+
+ul.menu li a {
+  font-family: Georgia;
+  color: #A40606;
+  margin: 0px;
+  text-decoration: none;
+  font-size: 30px;
+}
+
+ul.menu li a:hover {
+  color: red;
+}
+
+#aboutDiv {
+  position: relative;
+  top: 8%;
+}
+
+#aboutPic {
+  float: left;
+  margin-left: 50px;
+  margin-right: 20px;
+  border: solid;
+}
+
+#aboutText {
+  margin-left: 50px;
+  margin-right: 100px;
+  font-size: 30px;
+  border: solid;
+}
+
+#aboutDiv {
+  position: relative;
+  left: 30px;
+}
+
+#aniContent1 {
+  position:relative;
+}
+#aniContent2 {
+  position:relative;
+}
+.aniImage {
+  display: block;
+  border: solid;
+  border-width: 5px;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  position: relative;
+  left: 3%;
+  top: 20%;
+}
+
+#aniOP1 {
+  float: right;
+  position: absolute;
+  left: 50%;
+  bottom: 20%;
+  border: solid;
+  border-width: 10px;
+}
+
+#aniOP2 {
+  float: right;
+  position: absolute;
+  left: 50%;
+  bottom: 10%;
+  border: solid;
+  border-width: 10px;
+}
+
+/*consider making div for text and image so no overlap*/
+.aniText {
+  display: block;
+  width: 40%;
+  font-size: 25px;
+  position: relative;
+  left: 2%;
+  bottom: 10%;
+  font-weight: bold;
+}
+
+
+
+hr {
+  background-color: black;
+  border: black;
+  height: 2%;
+  width: 150%;
+}
+
+
+h2 {
+  text-align: center;
+  text-decoration: underline;
+  font-size: 60px;
+}
+
+h3 {
+  display: block;
+  text-decoration: underline;
+  font-size: 3em;
+  position: relative;
+  left: 3%;
+  top: 5%;
+
+}
